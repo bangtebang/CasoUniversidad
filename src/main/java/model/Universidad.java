@@ -40,6 +40,23 @@ public class Universidad {
 		this.tipo = tipo;
 		this.facultades = new ArrayList<>();
 	}
-
+	public ArrayList<Profesor> obtenerProfesores() {
+		ArrayList<Profesor> profesores = new ArrayList<>();
+		for (Facultad facultad : facultades) {
+			for (Departamento departamento : facultad.getDepartamentos()) {
+				profesores.addAll(departamento.getProfesores());
+			}
+		}
+		return profesores;
+	}
+	public ArrayList<Administrativo> obtenerAdministrativos() {
+		ArrayList<Administrativo> administrativos = new ArrayList<>();
+		for (Facultad facultad : facultades) {
+			for (Departamento departamento : facultad.getDepartamentos()) {
+				administrativos.addAll(departamento.getAdministrativos());
+			}
+		}
+		return administrativos;
+	}
 
 }

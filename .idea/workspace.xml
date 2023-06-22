@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b68be0e-bb27-42c9-81f6-720033121679" name="Changes" comment="subo master">
+    <list default="true" id="2b68be0e-bb27-42c9-81f6-720033121679" name="Changes" comment="subo clases creada con VP y sus constructores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Administrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Administrativo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Departamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Facultad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Facultad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Trabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Universidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Universidad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +59,26 @@
       <option name="project" value="LOCAL" />
       <updated>1687391658250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="subo clases creada con VP y sus constructores">
+      <created>1687393850238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687393850238</updated>
+    </task>
+    <task id="LOCAL-00003" summary="subo clases creada con VP y sus constructores">
+      <created>1687393870742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687393870742</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subo master" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo master" />
+    <MESSAGE value="subo clases creada con VP y sus constructores" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo clases creada con VP y sus constructores" />
   </component>
 </project>

@@ -33,6 +33,12 @@ public class Facultad {
 	public void setLatitud(int latitud) {
 		this.latitud = latitud;
 	}
+	public ArrayList<Departamento> getDepartamentos() {
+		return this.departamentos;
+	}
+	public void setDepartamentos(ArrayList<Departamento> departamentos){
+		this.departamentos = departamentos;
+	}
 
 	public Facultad(String nombre, int longitud,int latitud,Universidad universidad) {
 		this.nombre = nombre;
@@ -41,5 +47,25 @@ public class Facultad {
 		this.departamentos = new ArrayList<>();
 		this.universidad=universidad;
 	}
-
+	public void agregarDepartamento(Departamento departamento) {
+		departamentos.add(departamento);
+	}
+	public ArrayList<Profesor> obtenerProfesoresPorNombre(String nombreProfesor) {
+		ArrayList<Profesor> profesoresEncontrados = new ArrayList<>();
+		for (Departamento departamento : departamentos) {
+			for (Profesor profesor : departamento.getProfesores()) {
+				if (profesor.getNombre().equals(nombreProfesor)) {
+					profesoresEncontrados.add(profesor);
+				}
+			}
+		}
+		return profesoresEncontrados;
+	}
+	public ArrayList<CarreraUniversitaria> obtenerCarrerasUniversitarias() {
+		ArrayList<CarreraUniversitaria> carreras = new ArrayList<>();
+		for (Departamento departamento : departamentos) {
+			carreras.addAll(departamento.getCarrerasUniversitarias());
+		}
+		return carreras;
+	}
 }

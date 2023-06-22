@@ -15,7 +15,7 @@ public class Administrativo extends Trabajador {
 	}
 
 	public Administrativo(String nombre, String direccion, String estadoCivil, String rut, String horario, String horarioAtencion){
-		super(nombre, direccion, estadoCivil, rut, horario);
+		super(nombre, direccion, estadoCivil, rut, horario,null);
 		this.horarioAtencion = horarioAtencion;
 	}
 
