@@ -67,4 +67,11 @@ public abstract class Trabajador {
 		this.horario = horario;
 		this.universidad=universidad;
 	}
+	public Trabajador(String nombre, String direccion, String estadoCivil, String rut,final Universidad universidad) {
+		this.nombre = nombre;
+		this.direccion = direccion;
+		this.estadoCivil = estadoCivil;
+		this.rut = rut;
+		this.universidad=universidad;
+	}
 }

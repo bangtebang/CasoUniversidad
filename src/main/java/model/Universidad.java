@@ -1,8 +1,6 @@
 package model;
 
 import java.util.ArrayList;
-import model.Trabajador;
-import model.Facultad;
 
 public class Universidad {
 	private String nombre;
@@ -26,6 +24,12 @@ public class Universidad {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+	public void asignarTipo(int opcion) {
+		switch (opcion) {
+			case 1 -> setTipo("Publica");
+			case 2 -> setTipo("Privada");
+		}
+	}
 
 	public String getDireccionesAsociadas() {
 		return this.direccionesAsociadas;
@@ -35,28 +39,26 @@ public class Universidad {
 		this.direccionesAsociadas = direccionesAsociadas;
 	}
 
-	public Universidad(String nombre, String tipo) {
+	public Universidad(String nombre) {
 		this.nombre = nombre;
-		this.tipo = tipo;
 		this.facultades = new ArrayList<>();
 	}
 	public ArrayList<Profesor> obtenerProfesores() {
-		ArrayList<Profesor> profesores = new ArrayList<>();
-		for (Facultad facultad : facultades) {
-			for (Departamento departamento : facultad.getDepartamentos()) {
-				profesores.addAll(departamento.getProfesores());
+		ArrayList<Profesor> profesores = new ArrayList<Profesor>();
+		for(Trabajador trabajador : this.trabajadores){
+			if(trabajador.getTipo().equals("Profesor")){
+				profesores.add((Profesor) trabajador);
 			}
 		}
 		return profesores;
 	}
 	public ArrayList<Administrativo> obtenerAdministrativos() {
 		ArrayList<Administrativo> administrativos = new ArrayList<>();
-		for (Facultad facultad : facultades) {
+		for (Facultad facultad : this.facultades) {
 			for (Departamento departamento : facultad.getDepartamentos()) {
 				administrativos.addAll(departamento.getAdministrativos());
 			}
 		}
 		return administrativos;
 	}
-
 }

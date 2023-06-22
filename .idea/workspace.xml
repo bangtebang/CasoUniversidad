@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b68be0e-bb27-42c9-81f6-720033121679" name="Changes" comment="subo clases creada con VP y sus constructores">
+    <list default="true" id="2b68be0e-bb27-42c9-81f6-720033121679" name="Changes" comment="subo correcciones y todo los metodos creados mas modelo VP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Administrativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Administrativo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Departamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Facultad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Facultad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Profesor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Trabajador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Universidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Universidad.java" afterDir="false" />
@@ -37,12 +34,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,12 +70,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687393870742</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="subo correcciones y todo los metodos creados mas modelo VP">
+      <created>1687404410043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687404410043</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subo master" />
     <MESSAGE value="subo clases creada con VP y sus constructores" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo clases creada con VP y sus constructores" />
+    <MESSAGE value="subo correcciones y todo los metodos creados mas modelo VP" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo correcciones y todo los metodos creados mas modelo VP" />
   </component>
 </project>
